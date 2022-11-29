@@ -1,0 +1,163 @@
+@import './responsive/responsive.scss';
+@import './color/color.scss';
+@import './functions/functions.scss';
+
+
+.form_trial{
+    text-align: center;
+    background-color: $colorTrial ;
+    color: $colorFonts;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.form_formulary{
+        background-color: $colorFonts;
+        padding: 20px;
+        border-radius: 10px;
+        
+}
+
+.error{
+    color:$colorFondo;
+}
+.info{
+    color:$formularyFonts;
+}
+
+@include desktop_design{
+    /* Diseño responsive de desktop en grid layout*/
+    .form_container{
+        padding: 50px;
+        background-image: url('../images/bg-intro-desktop.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: $colorFondo;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .form_title{
+        text-align: left;
+        color:$colorFonts;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px 20px 0px 20px;
+    }
+    .form_subtitle{
+        text-align: left;
+        color:$colorFonts;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0px 20px 10px 20px;
+    }
+    .name{
+        @include paddingInputs;
+    }
+    .lastname{
+        @include paddingInputs;
+    }
+    .email{
+        @include paddingInputs;
+    }
+    .password{
+        @include paddingInputs;
+    }
+    .btn{
+        padding: 10px 90px 10px 90px;
+        @include btn_style;
+    }
+
+}
+@include tablet_design{
+    /* Diseño responsive de tablet en grid layout*/
+    .form_container{
+        padding: 40px;
+        background-image: url('../images/bg-intro-desktop.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: $colorFondo;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .form_title{
+        color:$colorFonts;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px 20px 0px 20px;
+    }
+    .form_subtitle{
+        color:$colorFonts;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0px 20px 10px 20px;
+    }
+    .name{
+        @include paddingInputs;
+    }
+    .lastname{
+        @include paddingInputs;
+    }
+    .email{
+        @include paddingInputs;
+    }
+    .password{
+        @include paddingInputs;
+    }
+    .btn{
+        padding: 10px 90px 10px 90px;
+        @include btn_style;
+    }
+
+}
+
+
+@include responsive_design{
+    /* Diseño responsive de móvil en flexbox de columnas*/
+    .form_container{
+        padding: 70px;
+        background-image: url('../images/bg-intro-mobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: $colorFondo ;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .form_title{
+        color:$colorFonts;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px 20px 0px 20px;
+    }
+    .form_subtitle{
+        color:$colorFonts;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0px 20px 10px 20px;
+    }
+    .name{
+        @include paddingInputsResponsive;
+    }
+    .lastname{
+        @include paddingInputsResponsive;
+    }
+    .email{
+        @include paddingInputsResponsive;
+    }
+    .password{
+        @include paddingInputsResponsive;
+    }
+    .btn{
+        padding:2vw 3vw 2vw 3vw;
+        @include btn_style;
+    }
+}

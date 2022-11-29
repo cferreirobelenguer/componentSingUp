@@ -1,0 +1,20 @@
+
+//media queries
+
+@mixin responsive_design{
+    @media (max-width: 564px) {
+        @content;
+    }
+}
+
+@mixin desktop_design{
+    @media (max-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin tablet_design{
+    @media (max-width:670px){
+        @content;
+    }
+}

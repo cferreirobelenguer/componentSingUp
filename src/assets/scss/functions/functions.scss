@@ -1,0 +1,18 @@
+
+@mixin paddingInputs{
+    text-align: left;
+    padding:10px 90px 10px 90px;
+    color:$formularyFonts;
+}
+@mixin paddingInputsResponsive{
+    text-align: left;
+    padding:2vw 3vw 2vw 3vw;
+    color:$formularyFonts;
+}
+@mixin btn_style{
+    background-color: $btn;
+    color:$colorFonts;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:$btn;
+}

@@ -1,0 +1,193 @@
+@charset "UTF-8";
+.form_trial {
+  text-align: center;
+  background-color: hsl(248deg, 32%, 49%);
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.form_formulary {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.error {
+  color: hsl(0deg, 100%, 74%);
+}
+
+.info {
+  color: hsl(246deg, 25%, 77%);
+}
+
+@media (max-width: 1440px) {
+  /* Diseño responsive de desktop en grid layout*/
+  .form_container {
+    padding: 50px;
+    background-image: url("../images/bg-intro-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: hsl(0deg, 100%, 74%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .form_title {
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px 0px 20px;
+  }
+  .form_subtitle {
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 20px 10px 20px;
+  }
+  .name {
+    text-align: left;
+    padding: 10px 90px 10px 90px;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .lastname {
+    text-align: left;
+    padding: 10px 90px 10px 90px;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .email {
+    text-align: left;
+    padding: 10px 90px 10px 90px;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .password {
+    text-align: left;
+    padding: 10px 90px 10px 90px;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .btn {
+    padding: 10px 90px 10px 90px;
+    background-color: hsl(154deg, 59%, 51%);
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: hsl(154deg, 59%, 51%);
+  }
+}
+@media (max-width: 670px) {
+  /* Diseño responsive de tablet en grid layout*/
+  .form_container {
+    padding: 40px;
+    background-image: url("../images/bg-intro-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: hsl(0deg, 100%, 74%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .form_title {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px 0px 20px;
+  }
+  .form_subtitle {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px 20px 10px 20px;
+  }
+  .name {
+    text-align: left;
+    padding: 10px 90px 10px 90px;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .lastname {
+    text-align: left;
+    padding: 10px 90px 10px 90px;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .email {
+    text-align: left;
+    padding: 10px 90px 10px 90px;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .password {
+    text-align: left;
+    padding: 10px 90px 10px 90px;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .btn {
+    padding: 10px 90px 10px 90px;
+    background-color: hsl(154deg, 59%, 51%);
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: hsl(154deg, 59%, 51%);
+  }
+}
+@media (max-width: 564px) {
+  /* Diseño responsive de móvil en flexbox de columnas*/
+  .form_container {
+    padding: 70px;
+    background-image: url("../images/bg-intro-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: hsl(0deg, 100%, 74%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .form_title {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px 0px 20px;
+  }
+  .form_subtitle {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 20px 10px 20px;
+  }
+  .name {
+    text-align: left;
+    padding: 2vw 3vw 2vw 3vw;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .lastname {
+    text-align: left;
+    padding: 2vw 3vw 2vw 3vw;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .email {
+    text-align: left;
+    padding: 2vw 3vw 2vw 3vw;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .password {
+    text-align: left;
+    padding: 2vw 3vw 2vw 3vw;
+    color: hsl(246deg, 25%, 77%);
+  }
+  .btn {
+    padding: 2vw 3vw 2vw 3vw;
+    background-color: hsl(154deg, 59%, 51%);
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: hsl(154deg, 59%, 51%);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
