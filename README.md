@@ -15,10 +15,11 @@ El los input de name y lastname solamente se pueden escribir letras mayúsculas 
 ![image](https://user-images.githubusercontent.com/88061350/204504974-a43e50e7-7306-40a7-af4a-67ac237e5d2c.png)
 
 ## VISTA DESKTOP CON ERRORES
+### No pueden hacer inputs sin rellenar
 ![image](https://user-images.githubusercontent.com/88061350/204507080-7a9aea1b-166d-4d0c-a5da-3732b8823726.png)
-
+### El mínimo de password es 8
 ![image](https://user-images.githubusercontent.com/88061350/204507286-fbc32360-beb1-412b-830f-2f3603713681.png)
-
+### name y lastname tienen que tener sólo caracteres de letras mayúsculas o minúsculas
 ![image](https://user-images.githubusercontent.com/88061350/204507367-465dc72b-3f16-473e-9988-d70c23d2ded9.png)
 
 ## VISTA TABLET SIN DATOS
