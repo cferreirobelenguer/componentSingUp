@@ -31,7 +31,7 @@ El los input de name y lastname solamente se pueden escribir letras mayúsculas 
 ## VISTA RESPONSIVE CON ERRORES
 ![image](https://user-images.githubusercontent.com/88061350/204505635-6d909e17-c878-4bd2-b037-934cd9d40a44.png)
 
-## VISTA RESPONSIVE CON DATOS
+## VISTA RESPONSIVE CON DATOS CORRECTOS
 ![image](https://user-images.githubusercontent.com/88061350/204508128-b0a66492-73af-4078-b585-bf6c40e1233a.png)
 
 
