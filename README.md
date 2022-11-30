@@ -1,6 +1,6 @@
 # Intro component with sign-up form- FrontEnd mentor challenge
 
-## fUNCIONAMIENTO
+## FUNCIONAMIENTO
 
 Challenge de frontEnd mentor que consiste en un formulario validado realizado con useForm de React.
 El los input de name y lastname solamente se pueden escribir letras mayúsculas o minúsculas, en la contraseña hay un mínimo de 8 caracteres.
